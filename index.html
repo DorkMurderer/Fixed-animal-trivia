@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+    <title>questionaire</title>
+</head>
+<body>
+    
+    <header class="header">
+    <h1>Animal Quiz! <i class="fas fa-pencil"></i></h1>
+    
+    <p style="text-align: center; color: white;">Test your knowledge on various animals with this small 4 question quiz!</p>
+    <div class="icons"> 
+        <i class="fas fa-hippo"></i>
+        <i class="fas fa-cat"></i>
+    <i class="fas fa-dog"></i>
+        <i class="fas fa-otter"></i>
+        <i class="fas fa-cow"></i>
+        
+        
+
+    
+    </div>
+  
+    </header>
+
+    <section class="quiz_container" id="quiz-app">
+        <div class="quiz_heading">
+            <h2 id="questionair">Animal Quiz</i></h2>
+         
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_answer">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_answer">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_answer">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_answer">Answer</label>
+                </li>
+            </ul>
+        </div>
+        <button class="btn" id="submit">Submit</button>
+    </section>
+
+    <script src="app.js"> </script>
+</body>
+</html>
